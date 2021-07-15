@@ -1,0 +1,1 @@
+"Hello AWS Lambda from Terraform from Lambda!"

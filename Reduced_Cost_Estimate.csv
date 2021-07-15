@@ -1,0 +1,15 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,73,876.00,USD,"Working days per month (22), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Number of Site-to-Site VPN Connections (2)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,406.61,4879.32,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon EC2,0,3878.47,46541.64,USD,"Operating system (Linux), Quantity (22), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (100 GB), Instance type (m6gd.2xlarge)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),,S3 Glacier Deep Archive,0,10.14,121.68,USD,S3 Glacier Deep Archive storage (10 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,44.91,538.92,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (500 GB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1580.4,18964.80,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (1000 GB), Provisioning IOPS (), Quantity (2), Instance type (db.m3.xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+
+
+
+To meet the new budget requirments:
+- Reduced DB instance type from m3.2xlarge to m3.xlarge
+- Reduced number of servers "EC2 Instances" from 32 to 20
+- Reduced s3 storage from 25 to 10 TB by moving old data to Glacier Deep Archive

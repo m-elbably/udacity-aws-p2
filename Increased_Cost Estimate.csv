@@ -1,0 +1,14 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,73,876.00,USD,"Working days per month (22), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Number of Site-to-Site VPN Connections (2)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,813.22,9758.64,USD,Number of Application Load Balancers (4)
+My Estimate,US East (N. Virginia),,Amazon EC2,0,11282.82,135393.84,USD,"Operating system (Linux), Quantity (64), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (100 GB), Instance type (m6gd.2xlarge)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,588.8,7065.60,USD,S3 Standard storage (25 TB per month)
+My Estimate,US East (N. Virginia),,S3 Glacier Deep Archive,0,10.14,121.68,USD,S3 Glacier Deep Archive storage (10 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,44.91,538.92,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (500 GB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,6652,79824.00,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (1000 GB), Provisioning IOPS (), Quantity (5), Instance type (db.m3.2xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+
+
+To increase performance and add more redundancy:
+- Increased EC2 instances to 64
+- RDS instances to 5
+- added 2 load balancers
